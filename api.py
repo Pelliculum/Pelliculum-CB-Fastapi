@@ -27,7 +27,7 @@ model = AutoModelForCausalLM.from_pretrained(MODEL_ID, device_map="auto")
 model = model.eval()
 
 # Clé API TMDb
-TMDB_API_KEY = "efc1fdea36e98dc437d419f495a37666"
+TMDB_API_KEY = "efc1fdea36e98dc437d419f495a37666" # Oui ... c'est pas bien, mais si vous voulez tester c'est mieux :D
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 
 # Template pour les prompts
