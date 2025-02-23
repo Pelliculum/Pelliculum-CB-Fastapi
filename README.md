@@ -16,10 +16,43 @@
 
 Ce projet s'inscrit dans le cadre d'un travail pratique sur le fine-tuning et le déploiement d'un modèle de langage pour la recommandation de films. Notre objectif initial était ambitieux : créer un chatbot capable non seulement de suggérer des films pertinents, mais aussi d'engager une conversation naturelle sur le cinéma, comprenant des requêtes complexes comme "j'ai aimé ce film avec telle actrice, peux-tu me proposer un autre ?" ou "ce film m'a plu pour son ambiance, as-tu des suggestions similaires ?". Comme nous le verrons, la réalité du développement nous a amenés à revoir et adapter ces objectifs initiaux.
 
-📌 **Accès au Projet** :
+📌 **Accès au Projet :**
 - Interface web : https://chat.pelliculum.fr
 - API : https://chat-api.pelliculum.fr
 - Docs API : https://chat-api.pelliculum.fr/docs
+- Code Frontend : https://github.com/Pelliculum/Pelliculum-CB-Front
+
+🚀 **Installation et Lancement Local :**
+
+**Frontend (Angular)**
+
+```bash
+# Prérequis
+npm install -g @angular/cli
+
+# Installation
+git clone https://github.com/Pelliculum/Pelliculum-CB-Front
+cd Pelliculum-CB-Front
+npm install
+
+# Lancement
+npm run dev
+```
+
+**Backend (FastAPI)**
+
+```bash
+# Installation des dépendances
+pip install fastapi uvicorn torch transformers requests
+
+# Lancement
+python main.py
+# ou
+uvicorn main:app --reload
+```
+
+L'API sera accessible sur http://localhost:8000 et le frontend sur http://localhost:4200.
+
 
 ## 🌱 Genèse et Évolution du Projet
 
