@@ -21,6 +21,7 @@ Ce projet s'inscrit dans le cadre d'un travail pratique sur le fine-tuning et le
 - API : https://chat-api.pelliculum.fr
 - Docs API : https://chat-api.pelliculum.fr/docs
 - Code Frontend : https://github.com/Pelliculum/Pelliculum-CB-Front
+- Modèle Hugging-Face : https://huggingface.co/RealDragonMA/Pelliculum-Chatbot
 
 🚀 **Installation et Lancement Local :**
 
